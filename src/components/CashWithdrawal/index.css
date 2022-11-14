@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  background-size: cover;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+
+  border-radius: 10px;
+}
+.profile-pic {
+  background-color: #c7d2fe;
+  background-size: cover;
+
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 10px;
+}
+.profile-s {
+  color: #7c3aed;
+}
+.container-1 {
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  align-self: flex-start;
+
+  font-family: 'Roboto';
+}
+.your-balance {
+  color: #585076;
+  font-weight: bold;
+}
+.rupees-in-digits {
+  color: white;
+  font-weight: bold;
+}
+.rupees-in-words {
+  color: #585076;
+  font-weight: bold;
+  font-size: 12px;
+}
+.your-balance {
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 300px;
+}
+.withdraw {
+  color: white;
+  font-weight: bold;
+}
+.choose-sum {
+  color: #585076;
+  font-weight: bold;
+}
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-right: 100px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px;
+  flex-wrap: wrap;
+
+  width: 400px;
+
+  list-style-type: none;
+}
