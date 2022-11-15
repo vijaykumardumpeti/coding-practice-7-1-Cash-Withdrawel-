@@ -61,7 +61,7 @@ class CashWithdrawal extends Component {
               decreaseBalanceForId3={this.decreaseBalanceForId3}
               decreaseBalanceForId4={this.decreaseBalanceForId4}
               eachObject={eachObject}
-              key={eachObject.key}
+              key={eachObject.id}
             />
           ))}
         </ul>
